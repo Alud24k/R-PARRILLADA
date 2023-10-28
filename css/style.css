@@ -212,13 +212,39 @@ nav {
 
 .pProperties {
   justify-content: space-between;
+  font-size: 24px;
+  border-bottom: 2px solid #000;
+  font-weight: 600;
+}
+
+.menuOpciones div {
+  width: 60%;
 }
 
 .justifyCenter {
   justify-content: center;
+  align-items: center;
 }
 
-@media (max-width: 900px) {
+.menuOpciones p {
+  padding: 10px;
+
+}
+
+.menuOpcionesDescripcion {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.menuOpciones span {
+  color: #fea116;
+  font-weight: 600;
+}
+
+
+
+
+/* @media (max-width: 900px) {
   .boxProperties {
     width: 100%;
   }
@@ -226,4 +252,4 @@ nav {
   .boxPropertiesFlex {
     flex-direction: column;
   }
-}
+} */
