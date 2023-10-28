@@ -317,6 +317,44 @@ button {
   font-weight: 600;
 }
 
+.nuestroEquipo {
+  padding: 10px 60px;
+}
+
+.nuestroEquipoTitle {
+  text-align: center;
+}
+
+.nuestroEquipoTitle h3 {
+  font-size: 26px;
+  font-family: "Pacifico", cursive;
+  color: #fea116;
+  padding-top: 40px;
+}
+
+.nuestroEquipoTitle h2 {
+color: #000;
+font-size: 32px;
+padding-top: 15px;
+}
+
+.nuestroEquipoCheffs {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.nuestroEquipoBoxProperties {
+  width: 25%;
+  border-radius: 15px;
+  margin: 10px;
+  background: white;
+  height: 350px;
+  padding: 60px;
+  font-size: 20px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 /* @media (max-width: 900px) {
   .boxProperties {
     width: 100%;

@@ -13,14 +13,17 @@
           <h1><i class="fa-solid fa-utensils"></i> R-Parrillada</h1>
         </div>
         <div class="navbar">
-          <a href="#">INICIO</a><a href="#sectionNosotros">NOSOTROS</a
-          ><a href="#">SERVICIOS</a><a href="#">MENÚ</a><a href="#">CONTACTO</a>
+          <a href="#sectionInicio">INICIO</a
+          ><a href="#sectionNosotros">NOSOTROS</a
+          ><a href="#sectionServicios">SERVICIOS</a
+          ><a href="#sectionMenu">MENÚ</a
+          ><a href="#sectionContacto">CONTACTO</a>
         </div>
       </nav>
     </header>
     <main>
       <section>
-        <article class="banner">
+        <article id="sectionInicio" class="banner">
           <div class="flexBanner">
             <h2>
               Disfruta nuestros deliciosos <br />
@@ -132,7 +135,7 @@
             </div>
           </div>
         </article>
-        <article>
+        <article id="sectionMenu">
           <div class="mainMenu">
             <h3>- Nuestro menú -</h3>
             <h2>Nuestros platos populares</h2>
@@ -248,19 +251,65 @@
                 <div class="d-flex">
                   <div class="d-flex consultaNameInput">
                     <label for="fnamelname">Nombre y apellido:</label>
-                    <input id="fnamelname" name="fnamelname" type="text" placeholder="Ingrese su nombre" required/>
+                    <input
+                      id="fnamelname"
+                      name="fnamelname"
+                      type="text"
+                      placeholder="Ingrese su nombre"
+                      required
+                    />
                   </div>
                   <div class="d-flex consultaEmailInput">
                     <label for="email">Email:</label>
-                    <input id="email" name="email" type="text" placeholder="usuario@usuario.com" required />
+                    <input
+                      id="email"
+                      name="email"
+                      type="text"
+                      placeholder="usuario@usuario.com"
+                      required
+                    />
                   </div>
                 </div>
                 <div class="d-flex consultaTextareaInput">
                   <label for="textarea">Consulta:</label>
-                  <textarea id="textarea" rows="8" placeholder="Ingrese su consulta aqui..." required></textarea>
+                  <textarea
+                    id="textarea"
+                    rows="8"
+                    placeholder="Ingrese su consulta aqui..."
+                    required
+                  ></textarea>
                 </div>
-                <button class="d-flex justifyCenter consultaBoton" type="submit">ENVIAR CONSULTA</button>
+                <button
+                  class="d-flex justifyCenter consultaBoton"
+                  type="submit"
+                >
+                  ENVIAR CONSULTA
+                </button>
               </form>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="nuestroEquipoTitle">
+            <h3>- Nuestro equipo -</h3>
+            <h2>Conocé nuestros cheff</h2>
+          </div>
+          <div class="nuestroEquipo d-flex">
+            <div class="d-flex justifyCenter nuestroEquipoBoxProperties">
+              <img class="nuestroEquipoCheffs" src="./img/team-1.jpg" alt="" />
+              <h2>Lionel Scaloni</h2>
+            </div>
+            <div class="d-flex justifyCenter nuestroEquipoBoxProperties">
+              <img class="nuestroEquipoCheffs" src="./img/team-2.jpg" alt="" />
+              <h2>Walter Samnuel</h2>
+            </div>
+            <div class="d-flex justifyCenter nuestroEquipoBoxProperties">
+              <img class="nuestroEquipoCheffs" src="./img/team-3.jpg" alt="" />
+              <h2>Palo Aimar</h2>
+            </div>
+            <div class="d-flex justifyCenter nuestroEquipoBoxProperties">
+              <img class="nuestroEquipoCheffs" src="./img/team-4.jpg" alt="" />
+              <h2>Roberto Fabían Ayala</h2>
             </div>
           </div>
         </article>
