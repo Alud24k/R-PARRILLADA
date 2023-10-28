@@ -243,6 +243,10 @@ nav {
   font-weight: 600;
 }
 
+.consultaContainer {
+  padding-top: 60px;
+}
+
 .consultaNameInput,
 .consultaEmailInput,
 .consultaTextareaInput,
