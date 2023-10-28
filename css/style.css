@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Nunito+Sans:opsz@6..12&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background: #f1f8ff;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  background: #141414;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 40px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 20px;
+}
+
+h1 {
+  color: #fea116;
+  font-size: 55px;
+  padding: 15px;
+}
+
+nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  background-image: url("/img/bg-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #ffffff;
+  font-family: "Heebo", sans-serif;
+}
+
+.flexBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.flexBanner h2 {
+  font-size: 100px;
+  padding-top: 140px;
+}
+
+.flexBanner p {
+  padding: 0 250px 150px 250px;
+  font-size: 24px;
+}
+
+.boxPropertiesFlex {
+  display: flex;
+  padding: 30px 60px;
+  justify-content: center;
+}
+
+.boxProperties {
+  width: 25%;
+  border-radius: 15px;
+  margin: 10px;
+  background: white;
+  height: 520px;
+  padding: 30px;
+  font-size: 22px;
+}
+
+.boxProperties h3 {
+  font-size: 24px;
+}
+
+.boxProperties p {
+  padding: 20px 0;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  line-height: 2rem;
+}
+
+.iconSVG {
+  color: #fea116;
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+
+.containerNosotrosFlex {
+  display: flex;
+  padding: 30px 60px;
+}
+
+.boxNosotros {
+  width: 50%;
+}
+
+.boxNosotros h3 {
+  font-family: "Pacifico", cursive;
+  font-size: 26px;
+  color: #fea116;
+}
+
+.boxNosotros h2 {
+  font-size: 30px;
+  padding: 10px 0px;
+}
+
+.boxNosotros p {
+  font-size: 23px;
+  line-height: 2.40rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.nosotrosColor {
+  color: #fea116;
+}
+
+.textoNosotros {
+  padding: 15px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.imgBox1 {
+  margin: 5px 20px;
+  width: 50%;
+  justify-content: end;
+  align-items: end;
+}
+
+.imgBox2 {
+  margin: 5px 20px;
+  width: 50%;
+  justify-content: start;
+  align-items: end;
+}
+
+.imgBox3 {
+  margin: 5px 20px;
+  width: 50%;
+  justify-content: end;
+  align-items: start;
+}
+
+.imgBox4 {
+  margin: 5px 20px;
+  width: 50%;
+  justify-content: start;
+  align-items: start;
+}
+
+.imgSmallSize {
+  width: 225px;
+}
+
+.imgNormalSize {
+  width: 325px;
+}
+
+.mainMenu {
+  text-align: center;
+}
+
+.menu1, .menu2 {
+  width: 50%;
+}
+
+@media (max-width: 900px) {
+  .boxProperties {
+    width: 100%;
+  }
+
+  .boxPropertiesFlex {
+    flex-direction: column;
+  }
+}
