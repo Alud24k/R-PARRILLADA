@@ -237,19 +237,30 @@
         <article>
           <div class="d-flex">
             <div class="containerWidth">
-              <img src="./img/contacto.jpg" alt="" />
+              <img class="consultaImagen" src="./img/contacto.jpg" alt="" />
             </div>
-            <div class="containerWidth">
-              <h3>- Consulta -</h3>
-              <h2>Completá el formulario</h2>
-              <div>
-                <p>Nombre y apellido:</p>
-                <p>Email:</p>
-                <div>
-                  <input type="text" />
-                  <input type="email" />
-                </div>
+            <div class="consulta containerWidth">
+              <div class="consultaTitle">
+                <h3>- Consulta -</h3>
+                <h2>Completá el formulario</h2>
               </div>
+              <form>
+                <div class="d-flex">
+                  <div class="d-flex consultaNameInput">
+                    <label for="fnamelname">Nombre y apellido:</label>
+                    <input id="fnamelname" name="fnamelname" type="text" />
+                  </div>
+                  <div class="d-flex consultaEmailInput">
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="text" />
+                  </div>
+                </div>
+                <div class="d-flex consultaTextareaInput">
+                  <label for="textarea">Consulta:</label>
+                  <textarea id="textarea" rows="8"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+              </form>
             </div>
           </div>
         </article>

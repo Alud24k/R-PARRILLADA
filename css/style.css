@@ -38,7 +38,6 @@ header {
   font-size: 20px;
 }
 
-
 h1 {
   color: #fea116;
   font-size: 55px;
@@ -58,7 +57,6 @@ nav {
   background-size: 100%;
   color: #ffffff;
   font-family: "Nunito", sans-serif;
-
 }
 
 .flexBanner {
@@ -233,7 +231,6 @@ nav {
 
 .menuOpciones p {
   padding: 10px;
-
 }
 
 .menuOpcionesDescripcion {
@@ -246,8 +243,47 @@ nav {
   font-weight: 600;
 }
 
+.consultaNameInput,
+.consultaEmailInput,
+.consultaTextareaInput,
+.consultaTitle,
+button {
+  font-family: "Roboto", sans-serif;
+  flex-direction: column;
+}
 
+.consultaNameInput,
+.consultaEmailInput {
+  width: 50%;
+  height: 44px;
+  font-size: 23px;
+  margin: 20px 0;
+  font-weight: 100;
+}
 
+.consultaTextareaInput {
+  font-size: 23px;
+}
+
+.consultaImagen {
+  width: 100%;
+}
+
+.consulta {
+  color: #ffffff;
+  background: #0f172b;
+  padding: 30px;
+}
+
+.consultaTitle h3 {
+  color: #fea116;
+  font-size: 27px;
+}
+
+.consultaTitle h2 {
+  font-size: 32px;
+  color: #ffffff;
+}
 
 /* @media (max-width: 900px) {
   .boxProperties {
