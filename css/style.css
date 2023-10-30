@@ -59,7 +59,6 @@ nav {
   background-repeat: no-repeat;
   background-size: 100%;
   color: #ffffff;
-  font-family: "Nunito", sans-serif;
 }
 
 .flexBanner {
@@ -303,14 +302,12 @@ button {
 .consultaTitle h3 {
   color: #fea116;
   font-size: 27px;
-  font-family: "Nunito", sans-serif;
 }
 
 .consultaTitle h2 {
   font-size: 32px;
   color: #ffffff;
   padding: 20px 0px;
-  font-family: "Nunito", sans-serif;
 }
 
 .consultaBoton {
