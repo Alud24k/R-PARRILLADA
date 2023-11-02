@@ -57,8 +57,8 @@ nav {
   background-image: url("/img/bg-banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
   color: #ffffff;
+  background-size: cover;
 }
 
 .flexBanner {
@@ -386,6 +386,10 @@ footer h3 {
 .footerA {
   font-size: 20px;
   padding-top: 5px;
+}
+
+a {
+  color: white;
 }
 
 a:visited {
