@@ -113,7 +113,7 @@ nav {
 
 .containerNosotrosFlex {
   display: flex;
-  padding: 30px 60px;
+  padding: 2% 2%;
 }
 
 .boxNosotros {
@@ -178,6 +178,17 @@ nav {
   align-items: start;
 }
 
+.responsiveNosotros {
+  display: none;
+  width: 100%;
+}
+
+.responsiveNosotrosImagen {
+  box-shadow: 8px 7px 12px gray;
+  border-radius: 8px;
+  width: 100%;
+}
+
 .imgSmallSize {
   width: 225px;
 }
@@ -187,6 +198,10 @@ nav {
 }
 
 .containerWidth {
+  width: 50%;
+}
+
+.consultaImagenWidth {
   width: 50%;
 }
 
@@ -297,7 +312,7 @@ button {
   color: #ffffff;
   background: #0f172b;
   padding: 30px;
-  width: 50%;
+  width: 46.8%;
 }
 
 .consultaTitle h3 {
@@ -323,7 +338,7 @@ button {
 }
 
 .nuestroEquipo {
-  padding: 10px 60px;
+  padding: 2% 4%;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -414,17 +429,30 @@ a:visited {
 }
 
 @media (max-width: 1200px) {
+  .navbar {
+    padding: 2%;
+  }
+
   .boxProperties {
-    width: 28%;
+    width: 40%;
     height: auto;
   }
 
-  .boxNosotros {
-    display: none;
+  .responsiveNosotros {
+    display: block;
   }
 
   .textoNosotros {
     width: 100%;
+  }
+
+  .imgSizeMenu {
+    width: 20%;
+    margin: 2%;
+  }
+
+  .menuOpciones div {
+    width: 75%;
   }
 
   .containerWidth {
@@ -435,8 +463,21 @@ a:visited {
     display: none;
   }
 
+  .containerNosotrosFlex {
+    padding: 2% 4%;
+    flex-wrap: wrap;
+  }
+
   .consulta {
     width: 100%;
+  }
+
+  .consultaImagenWidth {
+    width: 200%;
+  }
+
+  .consultaContainer {
+    flex-wrap: wrap;
   }
 
   .nuestroEquipoBoxProperties {
@@ -454,7 +495,7 @@ a:visited {
 
   .flexBanner h2 {
     font-size: 85px;
-    padding-top: 100px;
+    padding-top: 70px;
   }
 
   .flexBanner p {
@@ -463,8 +504,118 @@ a:visited {
 }
 
 @media (max-width: 768px) {
+  .responsiveTitleNav {
+    width: 100%;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  header {
+    position: static;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  .navbar {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+  }
+
+  .flexBanner p {
+    padding: 0 2% 2% 2%;
+  }
+
+  .flexBanner h2 {
+    font-size: 60px;
+    padding-top: 30px;
+  }
+
+  .consultaContainer {
+    padding-top: 0;
+  }
+
   .boxProperties {
-    width: 40%;
+    width: 100%;
     height: auto;
+  }
+
+  .boxPropertiesFlex {
+    padding: 2% 4%;
+  }
+
+  .nuestroEquipoBoxProperties {
+    width: 100%;
+    height: auto;
+    padding: 2%;
+  }
+
+  .nuestroEquipoCheffs {
+    width: 50%;
+  }
+
+  .responsiveDisplayNone {
+    display: none;
+  }
+
+  .containerNosotrosFlex {
+    padding: 2% 4%;
+  }
+
+  .mainMenu h3 {
+    padding: 4% 0 1.5% 0;
+    font-size: 26px;
+  }
+
+  .imgSizeMenu {
+    width: 25%;
+    margin: 2%;
+  }
+
+  .menuOpciones div {
+    width: 75%;
+  }
+
+  .consulta {
+    padding: 1%;
+    width: 98%;
+  }
+
+  .containerMenu {
+    padding: 2% 4%;
+    flex-wrap: wrap;
+  }
+
+  .responsiveInput {
+    flex-wrap: wrap;
+  }
+
+  .consultaNameInput,
+  .consultaEmailInput {
+    width: 100%;
+  }
+
+  .nuestroEquipo {
+    padding: 2% 4%;
+  }
+
+  .nuestroEquipoBoxProperties h2 {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+
+  footer {
+    padding: 1% 1%;
+  }
+
+  .footerBox {
+    width: 42%;
+    padding: 4%;
   }
 }

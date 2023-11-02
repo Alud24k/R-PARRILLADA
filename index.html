@@ -18,7 +18,7 @@
   <body>
     <header>
       <nav>
-        <div>
+        <div class="responsiveTitleNav">
           <h1><i class="fa-solid fa-utensils"></i> R-Parrillada</h1>
         </div>
         <div class="navbar">
@@ -97,7 +97,14 @@
         </article>
         <article id="sectionNosotros">
           <div class="containerNosotrosFlex">
-            <div class="boxNosotros">
+            <div class="responsiveNosotros">
+              <img
+                class="responsiveNosotrosImagen"
+                src="./img/responsiveNosotros.jpg"
+                alt=""
+              />
+            </div>
+            <div class="boxNosotros responsiveDisplayNone">
               <div class="d-flex">
                 <div class="d-flex imgBox1">
                   <img
@@ -144,7 +151,8 @@
                 asegurando la frescura y la calidad que mereces. Desde los
                 cortes más tiernos y jugosos hasta los sabores audaces y
                 ahumados de las costillas, te garantizamos un viaje sensorial
-                que te dejará ansiando cada siguiente visita. <br class="responsiveDisplayNone" />
+                que te dejará ansiando cada siguiente visita.
+                <br class="responsiveDisplayNone" />
                 Ya sea que te encuentres celebrando un momento especial o
                 simplemente deseando un festín inolvidable, nuestra parrillada
                 es el lugar perfecto para compartir con los tuyos. Acompaña tus
@@ -291,16 +299,16 @@
         </article>
         <article id="sectionContacto">
           <div class="consultaContainer d-flex">
-            <div class="containerWidth responsiveDisplayNone">
+            <div class="consultaImagenWidth">
               <img class="consultaImagen" src="./img/contacto.jpg" alt="" />
             </div>
-            <div class="consulta ">
+            <div class="consulta">
               <div class="consultaTitle">
                 <h3>- Consulta -</h3>
                 <h2>Completá el formulario</h2>
               </div>
               <form>
-                <div class="d-flex">
+                <div class="d-flex responsiveInput">
                   <div class="d-flex consultaNameInput">
                     <label for="fnamelname">Nombre y apellido:</label>
                     <input
