@@ -28,9 +28,6 @@ header {
 }
 
 .navbar {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   padding: 40px;
 }
 
@@ -51,6 +48,7 @@ nav {
   justify-content: space-between;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .banner {
@@ -84,14 +82,14 @@ nav {
   display: flex;
   padding: 30px 60px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .boxProperties {
-  width: 25%;
+  width: 20%;
   border-radius: 15px;
   margin: 10px;
   background: white;
-  height: 520px;
   padding: 30px;
   font-size: 22px;
 }
@@ -133,7 +131,7 @@ nav {
   padding: 10px 0px;
 }
 
-.boxNosotros p {
+.textoNosotros p {
   font-size: 23px;
   line-height: 2.4rem;
   font-family: "Roboto", sans-serif;
@@ -145,6 +143,7 @@ nav {
 
 .textoNosotros {
   padding: 15px;
+  width: 50%;
 }
 
 .d-flex {
@@ -213,6 +212,7 @@ nav {
 
 .containerMenu {
   padding: 30px 60px;
+  flex-wrap: wrap;
 }
 
 .pProperties {
@@ -297,6 +297,7 @@ button {
   color: #ffffff;
   background: #0f172b;
   padding: 30px;
+  width: 50%;
 }
 
 .consultaTitle h3 {
@@ -323,6 +324,8 @@ button {
 
 .nuestroEquipo {
   padding: 10px 60px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nuestroEquipoTitle {
@@ -348,7 +351,7 @@ button {
 }
 
 .nuestroEquipoBoxProperties {
-  width: 25%;
+  width: 17%;
   border-radius: 15px;
   margin: 10px;
   background: white;
@@ -364,6 +367,10 @@ footer {
   color: white;
   padding: 30px 60px;
   font-family: "Roboto", sans-serif;
+}
+
+.footerContainer {
+  flex-wrap: wrap;
 }
 
 footer p {
@@ -406,12 +413,58 @@ a:visited {
   padding-top: 10px;
 }
 
-/* @media (max-width: 900px) {
+@media (max-width: 1200px) {
   .boxProperties {
+    width: 33%;
+    height: auto;
+  }
+
+  .boxNosotros {
+    display: none;
+  }
+
+  .textoNosotros {
     width: 100%;
   }
 
-  .boxPropertiesFlex {
-    flex-direction: column;
+  .containerWidth {
+    width: 100%;
   }
-} */
+
+  .responsiveDisplayNone {
+    display: none;
+  }
+
+  .consulta {
+    width: 100%;
+  }
+
+  .nuestroEquipoBoxProperties {
+    width: 33%;
+    height: auto;
+  }
+
+  .nuestroEquipo {
+    flex-wrap: wrap;
+  }
+
+  .footerBox {
+    width: 50%;
+  }
+
+  .flexBanner h2 {
+    font-size: 85px;
+    padding-top: 100px;
+  }
+
+  .flexBanner p {
+    padding: 30px 100px 30px 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .boxProperties {
+    width: 40%;
+    height: auto;
+  }
+}
