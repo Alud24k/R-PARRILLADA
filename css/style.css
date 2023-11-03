@@ -528,12 +528,17 @@ a:visited {
   }
 
   .flexBanner p {
-    padding: 0 2% 2% 2%;
+    padding: 2%;
   }
 
   .flexBanner h2 {
     font-size: 60px;
-    padding-top: 30px;
+    padding: 2%;
+  }
+
+  .textoNosotros {
+    width: 100%;
+    padding: 0;
   }
 
   .consultaContainer {
@@ -543,16 +548,18 @@ a:visited {
   .boxProperties {
     width: 100%;
     height: auto;
+    padding: 4%;
   }
 
   .boxPropertiesFlex {
-    padding: 2% 4%;
+    padding: 2% 2%;
   }
 
   .nuestroEquipoBoxProperties {
     width: 100%;
     height: auto;
     padding: 2%;
+    margin: 2% 0;
   }
 
   .nuestroEquipoCheffs {
@@ -564,30 +571,38 @@ a:visited {
   }
 
   .containerNosotrosFlex {
-    padding: 2% 4%;
+    padding: 2% 2%;
   }
 
   .mainMenu h3 {
-    padding: 4% 0 1.5% 0;
+    padding: 2% 2%;
     font-size: 26px;
   }
 
   .imgSizeMenu {
-    width: 25%;
+    width: 60%;
     margin: 2%;
   }
 
+  .mainMenu h2 {
+    font-size: 29px;
+  }
+
   .menuOpciones div {
-    width: 75%;
+    width: 100%;
+  }
+
+  .menuOpciones {
+    flex-direction: column;
   }
 
   .consulta {
-    padding: 1%;
+    padding: 4%;
     width: 98%;
   }
 
   .containerMenu {
-    padding: 2% 4%;
+    padding: 2% 2%;
     flex-wrap: wrap;
   }
 
@@ -601,20 +616,33 @@ a:visited {
   }
 
   .nuestroEquipo {
-    padding: 2% 4%;
+    padding: 2%;
+  }
+
+  .nuestroEquipoTitle h3 {
+    padding: 2%;
+  }
+
+  .nuestroEquipoTitle h2 {
+    padding: 2%;
   }
 
   .nuestroEquipoBoxProperties h2 {
     font-size: 25px;
-    padding-top: 10px;
+    padding-top: 2%;
   }
 
   footer {
     padding: 1% 1%;
   }
 
-  .footerBox {
-    width: 42%;
-    padding: 4%;
+  .footerContainer {
+    flex-direction: column;
   }
+
+  .footerBox {
+    width: 96%;
+    padding: 2%;
+  }
+
 }
