@@ -542,6 +542,10 @@ a:visited {
     padding: 0;
   }
 
+  .textoNosotros h2 {
+    text-align: center;
+  }
+
   .textoNosotros h3 {
     text-align: center;
   }
