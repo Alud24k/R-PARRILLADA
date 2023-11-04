@@ -15,6 +15,14 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  color: white;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
 body {
   font-family: "Nunito", sans-serif;
   background: #f1f8ff;
@@ -77,14 +85,14 @@ nav {
   font-size: 24px;
 }
 
-.boxPropertiesFlex {
+.serviciosCardFlex {
   display: flex;
   padding: 30px 60px;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.boxProperties {
+.serviciosCard {
   width: 20%;
   border-radius: 15px;
   margin: 10px;
@@ -93,11 +101,11 @@ nav {
   font-size: 22px;
 }
 
-.boxProperties h3 {
+.serviciosCard h3 {
   font-size: 24px;
 }
 
-.boxProperties p {
+.serviciosCard p {
   padding: 20px 0;
   font-weight: 300;
   font-family: "Roboto", sans-serif;
@@ -149,28 +157,28 @@ nav {
   display: flex;
 }
 
-.imgBox1 {
+.nosotrosImgBox1 {
   margin: 5px 20px;
   width: 50%;
   justify-content: end;
   align-items: end;
 }
 
-.imgBox2 {
+.nosotrosImgBox2 {
   margin: 5px 20px;
   width: 50%;
   justify-content: start;
   align-items: end;
 }
 
-.imgBox3 {
+.nosotrosImgBox3 {
   margin: 5px 20px;
   width: 50%;
   justify-content: end;
   align-items: start;
 }
 
-.imgBox4 {
+.nosotrosImgBox4 {
   margin: 5px 20px;
   width: 50%;
   justify-content: start;
@@ -188,11 +196,11 @@ nav {
   width: 100%;
 }
 
-.imgSmallSize {
+.nosotrosImgSmallSize {
   width: 225px;
 }
 
-.imgNormalSize {
+.nosotrosImgNormalSize {
   width: 325px;
 }
 
@@ -410,14 +418,6 @@ footer h3 {
   padding-top: 5px;
 }
 
-a {
-  color: white;
-}
-
-a:visited {
-  color: #ffffff;
-}
-
 .footerBox {
   width: 25%;
 }
@@ -433,7 +433,7 @@ a:visited {
     padding: 2%;
   }
 
-  .boxProperties {
+  .serviciosCard {
     width: 40%;
     height: auto;
   }
@@ -542,6 +542,10 @@ a:visited {
     padding: 0;
   }
 
+  .textoNosotros p {
+    text-align: center;
+  }
+
   .textoNosotros h2 {
     text-align: center;
   }
@@ -554,14 +558,14 @@ a:visited {
     padding-top: 0;
   }
 
-  .boxProperties {
+  .serviciosCard {
     width: 100%;
     height: auto;
     padding: 4%;
     margin: 4% 0;
   }
 
-  .boxPropertiesFlex {
+  .serviciosCardFlex {
     padding: 2% 2%;
   }
 
@@ -613,15 +617,21 @@ a:visited {
     width: 100%;
   }
 
-  .menuOpciones p {
+  .pProperties {
+    font-size: 22px;
+  }
+
+  .menuOpcionesDescripcion {
     font-size: 19px;
     padding: 4%;
   }
 
   .menuOpciones {
     flex-direction: column;
-    padding-top: 4%;
     margin: 4% 0;
+    box-shadow: 5px 4px 14px gray;
+    padding: 0 4%;
+    border-radius: 5px;
   }
 
   .consulta {
